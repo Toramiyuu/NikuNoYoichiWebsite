@@ -3,22 +3,22 @@
    ======================================== */
 
 :root {
-  /* Colors - Japanese-inspired palette */
-  --color-bg: #0a0a0a;
-  --color-bg-elevated: #141414;
-  --color-bg-card: #1a1a1a;
-  --color-surface: #222222;
+  /* Colors - Premium Japanese Yakiniku palette */
+  --color-bg: #121212;           /* Warm black */
+  --color-bg-elevated: #1a1a1a;  /* Warm charcoal */
+  --color-bg-card: #1f1f1f;      /* Elevated surface */
+  --color-surface: #262626;      /* Cards and surfaces */
 
-  --color-text: #f5f5f5;
-  --color-text-muted: #999999;
-  --color-text-subtle: #666666;
+  --color-text: #faf9f6;         /* Warm white / off-white */
+  --color-text-muted: #a8a8a8;   /* Warmer muted text */
+  --color-text-subtle: #707070;  /* Subtle text */
 
-  --color-primary: #c41e3a;      /* Deep red - like wagyu marbling */
-  --color-primary-light: #e63950;
-  --color-primary-dark: #9a1830;
+  --color-primary: #d4af37;      /* Gold - premium accent */
+  --color-primary-light: #e8c967;
+  --color-primary-dark: #b8972e;
 
-  --color-accent: #d4a853;       /* Gold accent */
-  --color-accent-light: #e8c578;
+  --color-accent: #8b2635;       /* Deep maroon - secondary accent */
+  --color-accent-light: #a63446;
 
   --color-success: #4caf50;
   --color-warning: #ff9800;
@@ -387,7 +387,7 @@ button {
 }
 
 .badge-dot.closed {
-  background: var(--color-primary);
+  background: var(--color-accent);
   animation: none;
 }
 
